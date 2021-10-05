@@ -1,5 +1,8 @@
 # fit-with-aspect-ratio
 
+Fit a original dimensions within a max/min boundaries while keeping its original aspect ratio
+This package uses [fit-box][fit-box] under the hood with additional changes, like ability to specify minimum dimensions to scale down.
+
 ## Installation
 
 ```sh
@@ -24,3 +27,5 @@ const { width, height } = fitWithAspectRatio({
 ## License
 
 The package is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+[fit-box]: https://github.com/christianhg/fit-box
