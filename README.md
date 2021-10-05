@@ -1,6 +1,7 @@
 # fit-with-aspect-ratio
 
 Fit a original dimensions within a max/min boundaries while keeping its original aspect ratio
+
 This package uses [fit-box][fit-box] under the hood with additional changes, like ability to specify minimum dimensions to scale down.
 
 ## Installation
