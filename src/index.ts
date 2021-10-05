@@ -1,8 +1,8 @@
 import { fitBox } from 'fit-box';
 
 type Options = {
-  width: number;
-  height: number;
+  originalWidth: number;
+  originalHeight: number;
   maxWidth?: number;
   minWidth?: number;
   maxHeight?: number;
@@ -11,8 +11,8 @@ type Options = {
 
 // Calculates image size to fit it maxWidth, maxHeight keeping aspect ratio
 const optimalImageSize = ({
-  width,
-  height,
+  originalWidth: width,
+  originalHeight: height,
   maxWidth = width,
   maxHeight = height,
   minWidth = 0,
